@@ -25,7 +25,7 @@ It accepts raw performance feedback, uses OpenAI to generate polished summaries,
 │   ├── database.py
 │   └── schemas.py
 ├── requirements.txt
-├── .env              # SHOULD NOT be committed
+├── .env 
 ├── .gitignore
 ├── README.md
  </pre>
