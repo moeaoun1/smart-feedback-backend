@@ -41,13 +41,13 @@ OPENAI_API_KEY=sk-...
 </pre>
 
 ### 2. Install requirements:
-```bash
+<pre>```bash
 pip install -r requirements.txt
-
+</pre>
 
 ### 3. Run the app
-uvicorn app.main:app --reload
-
+<pre>uvicorn app.main:app --reload
+</pre>
 
 📄 License
 
