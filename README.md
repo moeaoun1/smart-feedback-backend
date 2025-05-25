@@ -35,10 +35,10 @@ It accepts raw performance feedback, uses OpenAI to generate polished summaries,
 ## 🔧 Setup
 
 ### 1. Create `.env` file
-```ini
+<pre>```ini
 DATABASE_URL=postgresql://user:password@localhost:5432/yourdb
 OPENAI_API_KEY=sk-...
-
+</pre>
 
 ### 2. Install requirements:
 ```bash
