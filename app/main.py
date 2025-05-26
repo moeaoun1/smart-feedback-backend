@@ -7,10 +7,9 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-# 👇 Add this CORS config
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can restrict this to ["http://localhost:3000"] if needed
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
